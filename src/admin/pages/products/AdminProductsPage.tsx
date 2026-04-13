@@ -12,11 +12,14 @@ export const AdminProductsPage = () => {
             <div className="flex justify-between items-center">
                 <AdminTitle title="Productos" subtitle="Gestión de productos" />
 
-                <Link to="/admin/products/new">
-                    <Button>
-                        <PlusIcon />
-                        Nuevo Producto
-                    </Button></Link>
+                <div className="flex justify-end mb-10 gap-4">
+                    <Link to="/admin/products/new">
+                        <Button>
+                            <PlusIcon />
+                            Nuevo Producto
+                        </Button>
+                    </Link>
+                </div>
             </div>
 
 
